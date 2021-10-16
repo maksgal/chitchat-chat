@@ -1,5 +1,5 @@
 import { Switch, Route } from "react-router-dom";
-import { createUserWithEmail, signInWithEmail } from "../firebase";
+import { createUserWithEmail, signInWithEmail } from "../firebase/firebase";
 import { EmailForm } from "./EmailForm/EmailForm";
 
 export const EntrySwitch = () => {

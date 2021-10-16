@@ -1,8 +1,8 @@
 import styles from "./Chat.module.css";
 import { Link } from "react-router-dom";
-import { Button } from "../Button";
+import { Button } from "../UI/Button";
 import { Avatar, Typography } from "@material-ui/core";
-import { auth } from "../firebase";
+import { auth } from "../firebase/firebase";
 import { useUser } from "../Context/UserContext";
 
 export const ChatHeader = () => {

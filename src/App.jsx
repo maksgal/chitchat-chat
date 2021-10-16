@@ -1,4 +1,4 @@
-import { RouterComp } from "./RouterComp";
+import { RouterComp } from "./Router/RouterComp";
 
 function App() {
   return <RouterComp />;

@@ -1,7 +1,7 @@
 import styles from "./EmailForm.module.css";
 import { useState } from "react";
-import { Button } from "../../Button";
-import { Input } from "../../Input";
+import { Button } from "../../UI/Button";
+import { Input } from "../../UI/Input";
 
 export const EmailForm = ({ sendCreds, buttonText }) => {
   const [email, setEmail] = useState("");

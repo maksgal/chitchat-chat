@@ -1,7 +1,7 @@
 import AVATAR_DEF from "../img/avatar.png";
 import { useEffect } from "react";
 import { createContext, useContext, useState } from "react";
-import { auth, getCurrentUser } from "../firebase";
+import { auth, getCurrentUser } from "../firebase/firebase";
 
 export const userContext = createContext();
 

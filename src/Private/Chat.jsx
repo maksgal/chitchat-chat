@@ -1,6 +1,9 @@
 import styles from "./Chat.module.css";
 import { useEffect } from "react";
-import { getMessagesFromDBOnStart, updateMessagesOnChange } from "../firebase";
+import {
+  getMessagesFromDBOnStart,
+  updateMessagesOnChange,
+} from "../firebase/firebase";
 import { ChatInput } from "./ChatInput";
 import { useMessages } from "../Context/MessageContext";
 import { Messages } from "./Messages";

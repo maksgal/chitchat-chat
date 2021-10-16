@@ -2,9 +2,9 @@ import styles from "./SwitchComp.module.css";
 import { Container, Typography } from "@material-ui/core";
 import { useEffect } from "react";
 import { Switch, Route, useHistory } from "react-router-dom";
-import { useUser } from "./Context/UserContext";
-import { Entry } from "./Login//Entry/Entry";
-import { Private } from "./Private/Private";
+import { useUser } from "../Context/UserContext";
+import { Entry } from "../Login/Entry/Entry";
+import { Private } from "../Private/Private";
 
 export const SwitchComp = () => {
   const history = useHistory();

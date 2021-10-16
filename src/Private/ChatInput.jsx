@@ -1,9 +1,9 @@
 import styles from "./Chat.module.css";
 import { useState } from "react";
-import { Button } from "../Button";
+import { Button } from "../UI/Button";
 import { useUser } from "../Context/UserContext";
-import { sendMessage } from "../firebase";
-import { Input } from "../Input";
+import { sendMessage } from "../firebase/firebase";
+import { Input } from "../UI/Input";
 export const ChatInput = () => {
   const [newMessage, setNewMessage] = useState("");
   const { user } = useUser();

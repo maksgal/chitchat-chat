@@ -1,9 +1,9 @@
 import styles from "./Edit.module.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "../../Button";
-import { editProfile } from "../../firebase";
-import { Input } from "../../Input";
+import { Button } from "../../UI/Button";
+import { editProfile } from "../../firebase/firebase";
+import { Input } from "../../UI/Input";
 import { ImageUploader } from "./ImageUploader";
 
 export const EditingForm = ({ user }) => {

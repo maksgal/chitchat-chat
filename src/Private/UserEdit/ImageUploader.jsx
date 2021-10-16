@@ -1,8 +1,8 @@
 import styles from "./ImageUploader.module.css";
 import { useState } from "react";
-import { Button } from "../../Button";
+import { Button } from "../../UI/Button";
 import { useUser } from "../../Context/UserContext";
-import { getImageUrl, uploadImage } from "../../storage";
+import { getImageUrl, uploadImage } from "../../firebase/storage";
 import { Avatar } from "@material-ui/core";
 
 export const ImageUploader = ({ avatarURL, setAvatarURL }) => {

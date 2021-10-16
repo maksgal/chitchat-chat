@@ -25,8 +25,8 @@ import {
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const API_KEY = process.env.API_KEY;
-const APP_ID = process.env.APP_ID;
+// const API_KEY = process.env.API_KEY;
+// const APP_ID = process.env.APP_ID;
 const firebaseConfig = {
   apiKey: "AIzaSyBwJkIPFS2zb9aJMPlPTahXyQtNlEbfb9o",
   authDomain: "chitchat-30475.firebaseapp.com",

@@ -3,8 +3,8 @@ import styles from "./Entry.module.css";
 import { Button as MuiButton } from "@material-ui/core";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Link, useHistory } from "react-router-dom";
-import { Button } from "../../Button";
-import { signInGoogle } from "../../firebase";
+import { Button } from "../../UI/Button";
+import { signInGoogle } from "../../firebase/firebase";
 import { EntrySwitch } from "../EntrySwitch";
 
 export const Entry = () => {
