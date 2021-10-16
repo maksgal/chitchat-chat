@@ -20,7 +20,6 @@ export const UserProvider = ({ children }) => {
       if (loading) {
         setLoading(false);
       }
-      console.log(currentUser);
     });
     return onUserChange;
   }, [currentUser, loading]);

@@ -3,7 +3,6 @@ import React from "react";
 import styles from "./Message.module.css";
 
 export const Message = ({ message }) => {
-  console.log(process.env.APP_ID);
   return (
     <li>
       <Card className={styles.message}>
