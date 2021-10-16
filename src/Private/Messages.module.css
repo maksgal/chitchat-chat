@@ -1,0 +1,13 @@
+.messages{
+    position: relative;
+    margin-bottom: 15px;
+    max-height: 60vh;
+    overflow: scroll;
+}
+.gradient{
+    position:absolute;
+    z-index:2;
+    right:0; top:100px; left:0;
+    height:30px; /* adjust it to your needs */
+    background: linear-gradient(to top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 70%);
+}

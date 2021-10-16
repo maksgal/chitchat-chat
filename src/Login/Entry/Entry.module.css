@@ -1,0 +1,8 @@
+.entry_header{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 724px;
+    margin-bottom: 15px;
+}

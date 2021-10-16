@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color:inherit;
+    scroll-behavior: smooth;
+}
+
+@media (max-width:513px) {
+    html{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:416px) {
+    html{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width:385px) {
+    html{
+        font-size: 0.6rem;
+    }
+}
+@media (max-width:350px) {
+    html{
+        font-size: 0.5rem;
+    }
+}
